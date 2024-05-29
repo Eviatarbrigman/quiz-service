@@ -38,7 +38,7 @@ public class QuizController {
     }
 
     @PostMapping("/getScore")
-    public Integer getScore(@RequestBody ScoreDto scoreDto){
+    public Integer getScore(@RequestBody ScoreDto scoreDto) {
         Integer score = quizService.getScore(scoreDto);
         return score;
     }

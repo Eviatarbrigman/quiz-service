@@ -20,6 +20,6 @@ public interface QuizInterface {
     public ResponseEntity<Integer> getScoreForQuiz(@RequestBody ScoreDto scoreDto);
 
     @PostMapping("questions/getQuestionsById")
-    public ResponseEntity<List<Question>> getQuestionsById (@RequestBody List<Integer> questionsIds);
+    public ResponseEntity<List<Question>> getQuestionsById(@RequestBody List<Integer> questionsIds);
 
 }

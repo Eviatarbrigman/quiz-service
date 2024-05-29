@@ -5,7 +5,7 @@ import jakarta.persistence.*;
 import java.util.List;
 
 @Entity
-@Table(name = "quiz" , schema = "quiz")
+@Table(name = "quiz", schema = "quiz")
 public class Quiz {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -13,9 +13,10 @@ public class Quiz {
     private String title;
     private List<Integer> questions;
 
-    public Quiz (){
+    public Quiz() {
 
     }
+
     public Quiz(Integer id, String title) {
         this.id = id;
         this.title = title;

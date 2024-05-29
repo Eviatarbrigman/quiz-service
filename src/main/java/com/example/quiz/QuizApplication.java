@@ -12,9 +12,9 @@ public class QuizApplication {
 
 
     public static void main(String[] args) {
-		SpringApplication.run(QuizApplication.class, args);
+        SpringApplication.run(QuizApplication.class, args);
 
-	}
+    }
 //	@Component
 //	public class init implements CommandLineRunner {
 //
